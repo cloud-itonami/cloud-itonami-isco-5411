@@ -44,7 +44,7 @@ human incident commander, at all times, with zero exception.
 (`firestation.governor`), following the itonami actor pattern
 (ADR-2607121000): `:intake -> :advise -> :govern -> :decide -+-> :commit
 (:ok?) +-> :request-approval (:escalate?, human-in-the-loop interrupt)
-+-> :hold (:hard?)`. 43 tests / 150 assertions green (`clojure -M:test`).
++-> :hold (:hard?)`. 43 tests / 150 assertions green (`kbb -M:test`).
 
 HARD invariants (always hold, never overridable): crew provenance (a
 proposal must resolve to an independently registered AND verified
