@@ -1,5 +1,5 @@
 (ns firestation.actor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [firestation.actor :as actor]
             [firestation.advisor :as advisor]
             [firestation.governor :as governor]
