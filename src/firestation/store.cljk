@@ -1,6 +1,6 @@
 (ns firestation.store
   "SSoT for the ISCO-08 5411 firefighters station/equipment/logistics
-  coordination actor (itonami actor pattern, ADR-2607121000 / CLAUDE.md
+  coordination actor (itonami actor pattern, ADR-2607121000 / AGENTS.md
   Actors section; README's 'Robotics premise' — a station-logistics
   robot performs apparatus/gear readiness data entry, crew shift and
   training scheduling, and equipment/supply coordination under this
